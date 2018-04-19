@@ -118,6 +118,51 @@
             height: pxToRem(1206);
         }
     }
+    .share22 {
+        height: 200vh;
+        .picBox {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            //      height: pxToRem(1206);
+            z-index: 10;
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .panelBg {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            height: pxToRem(1206);
+            background-repeat: no-repeat;
+            background-size: contain;
+            z-index: 1;
+            width: 100%;
+        }
+        .viewer {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            //      height: pxToRem(1206);
+            z-index: 2;
+            width: 100%;
+            height: 100%;
+            
+            border: 5px solid #f00;
+        }
+        #shot2 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            height: pxToRem(1206);
+        }
+    }
     .myTask {
         .viewer {
             position: relative;

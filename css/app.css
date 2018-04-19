@@ -1354,6 +1354,43 @@ header {
       top: 0;
       left: 0;
       height: 16.08rem; }
+  #sharePage .share22 {
+    height: 200vh; }
+    #sharePage .share22 .picBox {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      z-index: 10;
+      opacity: 0;
+      width: 100%;
+      height: 100%; }
+    #sharePage .share22 .panelBg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      height: 16.08rem;
+      background-repeat: no-repeat;
+      background-size: contain;
+      z-index: 1;
+      width: 100%; }
+    #sharePage .share22 .viewer {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      z-index: 2;
+      width: 100%;
+      height: 100%;
+      border: 5px solid #f00; }
+    #sharePage .share22 #shot2 {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      height: 16.08rem; }
   #sharePage .myTask .viewer {
     position: relative;
     width: 100%;

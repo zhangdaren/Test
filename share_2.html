@@ -30,10 +30,27 @@
 					</div>
 				</div>
 			</div>
-			<div class="myTask">
+
+			<div class="share22">
+				<div class="picBox" style="opacity: 1 !important;position: relative;">
+					<!--原div-->
+					<div class="panelBg capture" id="capture" style="background-image: url(img/shareBg.png);position: relative;">
+						<div class="footer">
+							<div class="qrbox"></div>
+							<img src="img/qrcode.png" class="qrcode" />
+							<p class="tips font30">长按免费领取480分钟通话时长</p>
+						</div>
+					</div>
+					<!--图片显示区-->
+					<div class="viewer" id="viewer" style="opacity: 1 !important;position: relative; ">
+						<img id="shot2">
+					</div>
+				</div>
+			</div>
+			
+			<!--<div class="myTask">
 
 				<div class="picBox">
-					<!--原div-->
 					<div class="panelBg capture" id="capture">
 						<div class="head" style="background-image: url(img/user_head.png);"></div>
 						<div class="name font30">嗨~我是XXX</div>
@@ -45,7 +62,6 @@
 
 						<div class="qr_subTitle font20">二维码有效期：2018-05-30</div>
 					</div>
-					<!--图片显示区-->
 					<div class="viewer" id="viewer">
 						<img id="shot2"></img>
 						<div class="tips font30">长按可保存图片</div>
@@ -55,7 +71,7 @@
 			<div class="tipsBox hidden">
 				<p class="tips font30">长按可保存二维码图片</p>
 				<div class="shareBtn font36" id="shareBtn">告诉好友</div>
-			</div>
+			</div>-->
 		</div>
 
 		<script src="js/flexible.js"></script>
@@ -84,7 +100,7 @@
 					'useCORS': true,
 				});
 				//生成图片(须在数据都加载完才执行)
-				html2canvas(document.querySelector(".myTask .capture")).then(canvas => {
+				html2canvas(document.querySelector(".share22 .capture")).then(canvas => {
 					$("#shot2").attr("src", canvas.toDataURL());
 					//						console.log(canvas.toDataURL());
 					console.log(canvas.toDataURL().length);
