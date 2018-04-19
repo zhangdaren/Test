@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="format-detection" content="telephone=no, email=no" />
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>我的任务</title>
+		<link rel="stylesheet" href="./css/app.css">
+
+	</head>
+
+	<body ontouchstart="" style="background-color: #1A80F2;">
+		<div class="absPage" id="sharePage">
+
+			<div class="picBox" style="opacity: 1 !important;position: relative;">
+				<!--原div-->
+				<div class="panelBg" id="capture" style="background-image: url(img/shareBg.png);">
+					<div class="footer">
+						<div class="qrbox"></div>
+						<img src="img/qrcode.png" class="qrcode" />
+						<p class="tips font30">长按免费领取480分钟通话时长</p>
+					</div>
+				</div>
+				<!--图片显示区-->
+				<div class="viewer" id="viewer">
+					<img id="shot">
+				</div>
+			</div>
+			<div class="tipsBox">
+				<p class="tips font30">长按可保存二维码图片</p>
+				<div class="shareBtn font36" id="shareBtn">告诉好友</div>
+			</div>
+		</div>
+
+		<script src="js/flexible.js"></script>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/html2canvas.min.js"></script>
+		<script src="js/vConsole.min.js"></script>
+		<script>
+			$(function() {
+				$("#shareBtn").click(function() {
+					$("#dialog_share").removeClass('moveOut').addClass('moveIn');
+				});
+
+				//关闭
+				$("#dialog_share").click(function() {
+					$(this).removeClass('moveIn').addClass('moveOut');
+
+					$(".picBox").css('opacity', 1);
+				});
+
+				//生成图片(须在数据都加载完才执行)
+				html2canvas(document.querySelector("#capture")).then(canvas => {
+					$("#shot").attr("src", canvas.toDataURL());
+					//						console.log(canvas.toDataURL());
+					console.log(canvas.toDataURL().length);
+				}, {
+					'useCORS': true,
+				});
+			});
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,47 @@
+
+@import "mixin";
+@import "var";
+.wrap {
+    width: 100%;
+    position: relative;
+    background: #f3f4f6;
+    color: #333333;
+}
+
+/*iscroll*/
+#wrapper {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+}
+
+.scrollBox {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+}
+
+.absPage {
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: absolute !important;
+    width: 100%;
+    min-height: 100%;
+    z-index: 10;
+//  background: #f3f4f6;
+}
+
+#page1 {
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    z-index: 10;
+    background: #f3f4f6;
+}
+
+@include moveIn();
+@include moveOut();
