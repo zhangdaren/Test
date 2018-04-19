@@ -1244,129 +1244,6 @@ header {
   transition: all 0.8s ease-out;
   display: none; }
 
-#mainPage {
-  width: 100%;
-  height: 100%;
-  min-height: 16.08rem;
-  -webkit-background-size: 100% 100%;
-  background-size: 100% 100%;
-  position: relative;
-  font-size: 0; }
-  #mainPage .vCenter {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); }
-  #mainPage .ruleBtn {
-    background-color: #fe8f15;
-    position: absolute;
-    width: 1.06667rem;
-    height: 0.88rem;
-    border-radius: 0.86667rem 0 0 0.86667rem;
-    position: fixed;
-    right: 0;
-    top: 3.02667rem;
-    color: #FFF;
-    z-index: 111; }
-  #mainPage .ruleBtn span {
-    position: absolute;
-    left: 58%;
-    top: 50%;
-    -webkit-transform: translate(-42%, -50%);
-    -moz-transform: translate(-42%, -50%);
-    -ms-transform: translate(-42%, -50%);
-    -o-transform: translate(-42%, -50%);
-    transform: translate(-42%, -50%);
-    width: fit-content;
-    display: block; }
-  #mainPage .banner {
-    height: 5.16rem;
-    background-image: url("../img/banner.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; }
-  #mainPage .list {
-    margin-top: 0.26667rem;
-    padding-bottom: 1.6rem; }
-    #mainPage .list > li {
-      border-radius: 0.26667rem;
-      background-color: rgba(53, 166, 242, 0.102);
-      width: 9.33333rem;
-      height: 2rem;
-      position: relative;
-      margin: 0 auto;
-      margin-bottom: 0.26667rem; }
-      #mainPage .list > li .title {
-        position: absolute;
-        left: 0.26667rem;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -moz-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        -o-transform: translateY(-50%);
-        transform: translateY(-50%); }
-    #mainPage .list .title > p:nth-child(1) {
-      color: #33A5F1; }
-    #mainPage .list .title > p:nth-child(2) {
-      color: #999999;
-      margin-top: 0.13333rem; }
-      #mainPage .list .title > p:nth-child(2) > span {
-        color: #FFB437; }
-    #mainPage .list .shareBtn {
-      position: absolute;
-      right: 0.21333rem;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -moz-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      -o-transform: translateY(-50%);
-      transform: translateY(-50%);
-      background-color: #33a5f1;
-      width: 2.13333rem;
-      height: 0.93333rem;
-      line-height: 0.93333rem;
-      border-radius: 0.93333rem;
-      text-align: center;
-      color: #FFF; }
-      #mainPage .list .shareBtn.disabled {
-        background: #BEBEBE; }
-  #mainPage .footer {
-    background-color: white;
-    -webkit-box-shadow: 0px 0.02667rem 0.50667rem 0px rgba(47, 163, 240, 0.18);
-    box-shadow: 0px 0.02667rem 0.50667rem 0px rgba(47, 163, 240, 0.18);
-    position: fixed;
-    left: 0px;
-    bottom: 0;
-    width: 100%;
-    height: 1.33333rem;
-    line-height: 1.33333rem;
-    text-align: center;
-    color: #33A5F1; }
-  #mainPage .icon_arrow_r {
-    background-image: url("../img/icon_arrow_r.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 0.17333rem;
-    height: 0.29333rem;
-    margin-left: 0.13333rem; }
-
-.dialog_share {
-  background: rgba(0, 0, 0, 0.8) !important; }
-  .dialog_share .shareTips {
-    background-image: url("../img/shareTips.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-    right: 0.56rem;
-    top: 0.16rem;
-    width: 5.22667rem;
-    height: 3.12rem; }
-
 #sharePage {
   width: 100%;
   height: 100%;
@@ -1375,7 +1252,6 @@ header {
   background-size: 100% 100%;
   position: relative;
   font-size: 0;
-  background-image: url("../img/shareBg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%; }
   #sharePage .footer {
@@ -1445,113 +1321,115 @@ header {
       margin-top: 0.4rem;
       position: relative;
       z-index: 11; }
-  #sharePage .picBox {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    z-index: 10;
-    opacity: 0;
-    width: 100%;
-    height: 100%; }
-  #sharePage .panelBg {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    height: 16.08rem;
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: 1;
-    width: 100%; }
-  #sharePage .viewer {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    z-index: 2;
-    width: 100%;
-    height: 100%; }
-  #sharePage #shot {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    height: 16.08rem; }
-
-#rulePage {
-  width: 100%;
-  height: 100%;
-  min-height: 16.08rem;
-  -webkit-background-size: 100% 100%;
-  background-size: 100% 100%;
-  position: relative;
-  font-size: 0; }
-  #rulePage .main_box {
+  #sharePage img {
+    max-width: 100%; }
+  #sharePage .share {
+    height: 200vh; }
+    #sharePage .share .picBox {
+      width: 8.28rem;
+      height: 10.50667rem; }
+    #sharePage .share .panelBg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      height: 16.08rem;
+      background-repeat: no-repeat;
+      background-size: contain;
+      z-index: 1;
+      width: 100%;
+      border: 10px solid #177b17; }
+    #sharePage .share .viewer {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      z-index: 2;
+      width: 100%;
+      height: 100%; }
+    #sharePage .share #shot {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      height: 16.08rem; }
+  #sharePage .myTask .viewer {
     position: relative;
-    background-repeat: no-repeat;
-    background-size: contain;
     width: 100%;
     height: 100%;
-    max-width: 10rem;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    border: 10px solid #900; }
+    #sharePage .myTask .viewer .tips {
+      color: white;
+      -webkit-text-shadow: 0px 0.02667rem 0.048rem rgba(253, 128, 18, 0.44);
+      text-shadow: 0px 0.02667rem 0.048rem rgba(253, 128, 18, 0.44);
+      position: absolute;
+      width: 100%;
+      bottom: 0.48rem;
+      left: 0;
+      color: #FFF; }
+    #sharePage .myTask .viewer #shot {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0; }
+  #sharePage .myTask .picBox {
+    position: relative;
     margin: 0 auto;
-    min-height: 16.08rem;
-    text-align: center; }
-  #rulePage .part1 {
-    min-height: 3.41333rem;
-    background: #FFF;
-    padding: 0.53333rem 0.33333rem; }
-    #rulePage .part1 .title {
-      color: #191919;
-      margin-bottom: 0.53333rem;
-      text-align: left; }
-    #rulePage .part1 .info {
-      color: #4d4d4d;
-      line-height: 1.792;
-      text-align: justify;
-      text-justify: inter-ideograph; }
-  #rulePage .vGap {
-    height: 0.13333rem;
-    background: #F5F5F5; }
-  #rulePage .part2 {
-    min-height: 3.41333rem;
-    background: #FFF;
-    padding: 0.53333rem 0.33333rem;
-    padding-bottom: 1.6rem; }
-    #rulePage .part2 .title {
-      color: #191919;
-      margin-bottom: 0.53333rem;
-      text-align: left; }
-    #rulePage .part2 .info {
-      color: #4d4d4d;
-      line-height: 1.792;
-      text-align: justify;
-      text-justify: inter-ideograph; }
-      #rulePage .part2 .info > p {
-        line-height: 1.792;
-        margin-bottom: 0.8rem; }
-  #rulePage .invitationBtn {
-    background-color: #fe9f33;
-    width: 100%;
-    height: 1.33333rem;
-    line-height: 1.33333rem;
-    color: #FFF;
-    text-align: center;
-    max-width: 10rem;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
+    width: 8.28rem;
+    height: 10.50667rem; }
+  #sharePage .myTask .panelBg {
+    background-image: url("../img/panelBg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     position: relative;
-    left: 50%; }
-    #rulePage .invitationBtn.fixed {
-      position: fixed;
-      bottom: 0;
-      left: 50%;
-      width: 100%; }
-  #rulePage.style_blue .invitationBtn {
-    background-color: #33a5f1; }
+    width: 100%;
+    height: 100%;
+    border: 10px solid #177b17;
+    padding-top: 0.98667rem; }
+    #sharePage .myTask .panelBg .head {
+      margin: 0 auto;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border-width: 0.02667rem;
+      border-color: white;
+      border-style: solid;
+      border-radius: 50%;
+      background-color: white;
+      width: 1.05333rem;
+      height: 1.05333rem; }
+    #sharePage .myTask .panelBg .name {
+      color: #FFF;
+      line-height: 1;
+      margin-top: 0.4rem; }
+    #sharePage .myTask .panelBg .welcome {
+      color: #FFF;
+      line-height: 1;
+      margin-top: 0.16rem; }
+    #sharePage .myTask .panelBg .qrcode {
+      margin: 0 auto;
+      margin-top: 1.2rem;
+      width: 2.34667rem;
+      height: 2.34667rem; }
+    #sharePage .myTask .panelBg .qr_title {
+      text-align: center;
+      color: #FFF;
+      line-height: 1;
+      margin-top: 0.53333rem;
+      -webkit-text-shadow: 0px 1px 0.06667rem rgba(221, 123, 8, 0.94);
+      text-shadow: 0px 1px 0.06667rem rgba(221, 123, 8, 0.94); }
+      #sharePage .myTask .panelBg .qr_title span {
+        color: #FFDD3F; }
+    #sharePage .myTask .panelBg .qr_subTitle {
+      color: #FFF;
+      text-align: center;
+      line-height: 1;
+      margin-top: 0.26667rem; }
 
 /*# sourceMappingURL=app.css.map */
