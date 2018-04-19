@@ -7,7 +7,7 @@
 		<meta name="renderer" content="webkit">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>我的任务</title>
-		<link rel="stylesheet" href="./css/app.css?v1.06">
+		<link rel="stylesheet" href="./css/app.css?v1.07">
 
 	</head>
 
@@ -44,40 +44,6 @@
 					<!--图片显示区-->
 					<div class="viewer" id="viewer" style="">
 						<img id="shot2">
-					</div>
-				</div>
-			</div>
-
-			<div class="share33">
-				<div class="picBox" style="">
-					<!--原div-->
-					<div class="panelBg capture" id="capture" style="background-image: url(img/shareBg.png);position: relative;">
-						<div class="footer">
-							<div class="qrbox"></div>
-							<img src="img/qrcode.png" class="qrcode" />
-							<p class="tips font30">长按免费领取480分钟通话时长</p>
-						</div>
-					</div>
-					<!--图片显示区-->
-					<div class="viewer" id="viewer" style="">
-						<img id="shot3">
-					</div>
-				</div>
-			</div>
-
-			<div class="share44">
-				<div class="picBox" style="">
-					<!--原div-->
-					<div class="panelBg capture" id="capture" style="background-image: url(img/shareBg.png);position: relative;">
-						<div class="footer">
-							<div class="qrbox"></div>
-							<img src="img/qrcode.png" class="qrcode" />
-							<p class="tips font30">长按免费领取480分钟通话时长</p>
-						</div>
-					</div>
-					<!--图片显示区-->
-					<div class="viewer" id="viewer" style="">
-						<img id="shot4">
 					</div>
 				</div>
 			</div>
@@ -143,24 +109,7 @@
 				}, {
 					'useCORS': true,
 				});
-				//生成图片(须在数据都加载完才执行)
-				html2canvas(document.querySelector(".share33 .capture")).then(canvas => {
-					$("#shot3").attr("src", canvas.toDataURL());
-					//						console.log(canvas.toDataURL());
-					console.log(canvas.toDataURL().length);
-					console.log("33 完成")
-				}, {
-					'useCORS': true,
-				});
-				//生成图片(须在数据都加载完才执行)
-				html2canvas(document.querySelector(".share44 .capture")).then(canvas => {
-					$("#shot4").attr("src", canvas.toDataURL());
-					//						console.log(canvas.toDataURL());
-					console.log(canvas.toDataURL().length);
-					console.log("44 完成")
-				}, {
-					'useCORS': true,
-				});
+
 			});
 		</script>
 	</body>

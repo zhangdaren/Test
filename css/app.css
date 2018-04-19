@@ -1324,7 +1324,8 @@ header {
   #sharePage img {
     max-width: 100%; }
   #sharePage .share {
-    height: 200vh; }
+    height: 200vh;
+    position: relative; }
     #sharePage .share .picBox {
       width: 8.28rem;
       height: 10.50667rem; }
@@ -1355,9 +1356,10 @@ header {
       left: 0;
       height: 16.08rem; }
   #sharePage .share22 {
-    height: 200vh; }
+    height: 200vh;
+    position: relative; }
     #sharePage .share22 .picBox {
-      height: 10rem;
+      width: 10rem;
       height: 16.08rem; }
     #sharePage .share22 .panelBg {
       position: absolute;
@@ -1386,9 +1388,10 @@ header {
       left: 0;
       height: 16.08rem; }
   #sharePage .share33 {
-    height: 200vh; }
+    height: 200vh;
+    position: relative; }
     #sharePage .share33 .picBox {
-      height: 10rem;
+      width: 10rem;
       height: 16.08rem;
       position: absolute;
       left: 0;
@@ -1420,14 +1423,15 @@ header {
       left: 0;
       height: 16.08rem; }
   #sharePage .share44 {
-    height: 200vh; }
+    height: 200vh;
+    position: relative; }
     #sharePage .share44 .picBox {
       height: 10rem;
       height: 16.08rem;
       position: relative;
       left: 0;
       top: 0;
-      opacity: 0; }
+      opacity: 0.5; }
     #sharePage .share44 .panelBg {
       position: absolute;
       left: 0;

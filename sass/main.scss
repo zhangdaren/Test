@@ -119,7 +119,7 @@
     //      }
     //  }
     .share {
-        height: 200vh;
+        height: 200vh;   position: relative;
         .picBox {
             //          position: absolute;
             //          position: relative;
@@ -163,9 +163,9 @@
         }
     }
     .share22 {
-        height: 200vh;
+        height: 200vh;   position: relative;
         .picBox {
-            height: pxToRem(750);
+            width: pxToRem(750);
             height: pxToRem(1206);
 //          position: relative;
 //          left: 0;
@@ -204,8 +204,9 @@
     }
     .share33 {
         height: 200vh;
+        position: relative;
         .picBox {
-            height: pxToRem(750);
+            width: pxToRem(750);
             height: pxToRem(1206);
             position: absolute;
             left: 0;
@@ -243,14 +244,14 @@
         }
     }
     .share44 {
-        height: 200vh;
+        height: 200vh;   position: relative;
         .picBox {
             height: pxToRem(750);
             height: pxToRem(1206);
             position: relative;
             left: 0;
             top: 0;
-            opacity: 0;
+            opacity: 0.5;
         }
         .panelBg {
             position: absolute;
