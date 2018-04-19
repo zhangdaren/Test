@@ -1324,7 +1324,7 @@ header {
   #sharePage img {
     max-width: 100%; }
   #sharePage .share {
-    height: 200vh;
+    height: 150vh;
     position: relative; }
     #sharePage .share .picBox {
       width: 8.28rem;
@@ -1356,7 +1356,7 @@ header {
       left: 0;
       height: 16.08rem; }
   #sharePage .share22 {
-    height: 200vh;
+    height: 120vh;
     position: relative; }
     #sharePage .share22 .picBox {
       width: 10rem;
@@ -1370,7 +1370,8 @@ header {
       background-repeat: no-repeat;
       background-size: contain;
       z-index: 1;
-      width: 100%; }
+      width: 100%;
+      border: 5px solid #f00; }
     #sharePage .share22 .viewer {
       position: absolute;
       left: 0;
@@ -1378,8 +1379,7 @@ header {
       right: 0;
       z-index: 2;
       width: 100%;
-      height: 100%;
-      border: 5px solid #f00; }
+      height: 100%; }
     #sharePage .share22 #shot2 {
       position: absolute;
       width: 100%;
@@ -1388,14 +1388,11 @@ header {
       left: 0;
       height: 16.08rem; }
   #sharePage .share33 {
-    height: 200vh;
+    height: 150vh;
     position: relative; }
     #sharePage .share33 .picBox {
       width: 10rem;
-      height: 16.08rem;
-      position: absolute;
-      left: 0;
-      top: 0; }
+      height: 10.50667rem; }
     #sharePage .share33 .panelBg {
       position: absolute;
       left: 0;
@@ -1423,14 +1420,12 @@ header {
       left: 0;
       height: 16.08rem; }
   #sharePage .share44 {
-    height: 200vh;
+    height: 150vh;
     position: relative; }
     #sharePage .share44 .picBox {
-      height: 10rem;
-      height: 16.08rem;
+      width: 10rem;
+      height: 10.50667rem;
       position: relative;
-      left: 0;
-      top: 0;
       opacity: 0.5; }
     #sharePage .share44 .panelBg {
       position: absolute;
