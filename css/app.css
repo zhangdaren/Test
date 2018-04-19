@@ -1326,8 +1326,12 @@ header {
   #sharePage .share {
     height: 200vh; }
     #sharePage .share .picBox {
-      width: 8.28rem;
-      height: 10.50667rem; }
+      position: relative;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      height: 10rem;
+      height: 16.08rem; }
     #sharePage .share .panelBg {
       position: absolute;
       left: 0;
@@ -1357,14 +1361,9 @@ header {
   #sharePage .share22 {
     height: 200vh; }
     #sharePage .share22 .picBox {
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      z-index: 10;
-      opacity: 0;
-      width: 100%;
-      height: 100%; }
+      height: 10rem;
+      height: 16.08rem;
+      position: relative; }
     #sharePage .share22 .panelBg {
       position: absolute;
       left: 0;
@@ -1385,6 +1384,75 @@ header {
       height: 100%;
       border: 5px solid #f00; }
     #sharePage .share22 #shot2 {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      height: 16.08rem; }
+  #sharePage .share33 {
+    height: 200vh; }
+    #sharePage .share33 .picBox {
+      height: 10rem;
+      height: 16.08rem;
+      position: relative;
+      left: 0;
+      top: 0; }
+    #sharePage .share33 .panelBg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      height: 16.08rem;
+      background-repeat: no-repeat;
+      background-size: contain;
+      z-index: 1;
+      width: 100%; }
+    #sharePage .share33 .viewer {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      z-index: 2;
+      width: 100%;
+      height: 100%;
+      border: 5px solid #f00; }
+    #sharePage .share33 #shot3 {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      height: 16.08rem; }
+  #sharePage .share44 {
+    height: 200vh; }
+    #sharePage .share44 .picBox {
+      height: 10rem;
+      height: 16.08rem;
+      position: relative;
+      left: 0;
+      top: 0;
+      opacity: 0; }
+    #sharePage .share44 .panelBg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      height: 16.08rem;
+      background-repeat: no-repeat;
+      background-size: contain;
+      z-index: 1;
+      width: 100%; }
+    #sharePage .share44 .viewer {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      z-index: 2;
+      width: 100%;
+      height: 100%;
+      border: 5px solid #f00; }
+    #sharePage .share44 #shot4 {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -1468,5 +1536,120 @@ header {
       text-align: center;
       line-height: 1;
       margin-top: 0.26667rem; }
+
+#sharePage1 {
+  width: 100%;
+  height: 100%;
+  min-height: 16.08rem;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  position: relative;
+  font-size: 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+  #sharePage1 .footer {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 10rem;
+    height: 3.8rem;
+    background-image: url("../img/footer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 0.53333rem;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%); }
+    #sharePage1 .footer .qrbox {
+      border-radius: 10px;
+      background-color: white;
+      -webkit-box-shadow: 0px 0.06667rem 0.46667rem 0.04533rem rgba(24, 125, 234, 0.18);
+      box-shadow: 0px 0.06667rem 0.46667rem 0.04533rem rgba(24, 125, 234, 0.18);
+      width: 2.04rem;
+      height: 2.04rem;
+      margin: 0 auto;
+      visibility: hidden; }
+    #sharePage1 .footer .tips {
+      margin-top: 0.4rem;
+      color: #666666; }
+    #sharePage1 .footer .qrcode {
+      position: absolute;
+      left: 50%;
+      top: 0.6rem;
+      width: 1.94667rem;
+      height: 1.94667rem;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      transform: translateX(-50%); }
+  #sharePage1 .tipsBox {
+    position: absolute;
+    left: 50%;
+    bottom: 1.70667rem;
+    width: 10rem;
+    text-align: center;
+    padding-top: 0.53333rem;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: #FFF;
+    z-index: 11; }
+    #sharePage1 .tipsBox .tips {
+      position: relative;
+      z-index: 0; }
+    #sharePage1 .tipsBox .shareBtn {
+      border-radius: 0.13333rem;
+      background-color: #feb405;
+      width: 5.54667rem;
+      height: 1.06667rem;
+      line-height: 1.06667rem;
+      margin: 0 auto;
+      margin-top: 0.4rem;
+      position: relative;
+      z-index: 11; }
+  #sharePage1 img {
+    max-width: 100%; }
+  #sharePage1 .share {
+    height: 200vh; }
+    #sharePage1 .share .picBox {
+      position: relative;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      height: 10rem;
+      height: 16.08rem; }
+    #sharePage1 .share .panelBg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      height: 16.08rem;
+      background-repeat: no-repeat;
+      background-size: contain;
+      z-index: 1;
+      width: 100%;
+      border: 10px solid #177b17; }
+    #sharePage1 .share .viewer {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      z-index: 2;
+      width: 100%;
+      height: 100%; }
+    #sharePage1 .share #shot {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      height: 16.08rem; }
 
 /*# sourceMappingURL=app.css.map */
