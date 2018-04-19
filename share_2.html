@@ -7,7 +7,7 @@
 		<meta name="renderer" content="webkit">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>我的任务</title>
-		<link rel="stylesheet" href="./css/app.css?v1.05">
+		<link rel="stylesheet" href="./css/app.css?v1.06">
 
 	</head>
 
@@ -15,7 +15,7 @@
 		<div class="absPage" id="sharePage">
 
 			<div class="share">
-				<div class="picBox" style="opacity: 1 !important;position: relative;">
+				<div class="picBox" style="">
 					<!--原div-->
 					<div class="panelBg capture" id="capture" style="background-image: url(img/shareBg.png);position: relative;">
 						<div class="footer">
@@ -25,14 +25,14 @@
 						</div>
 					</div>
 					<!--图片显示区-->
-					<div class="viewer" id="viewer" style="opacity: 1 !important;position: relative; ">
+					<div class="viewer" id="viewer" style="">
 						<img id="shot1">
 					</div>
 				</div>
 			</div>
 
 			<div class="share22">
-				<div class="picBox" style="opacity: 1 !important;position: relative;">
+				<div class="picBox" style="">
 					<!--原div-->
 					<div class="panelBg capture" id="capture" style="background-image: url(img/shareBg.png);position: relative;">
 						<div class="footer">
@@ -42,14 +42,14 @@
 						</div>
 					</div>
 					<!--图片显示区-->
-					<div class="viewer" id="viewer" style="opacity: 1 !important;position: relative; ">
+					<div class="viewer" id="viewer" style="">
 						<img id="shot2">
 					</div>
 				</div>
 			</div>
 
 			<div class="share33">
-				<div class="picBox" style="opacity: 1 !important;position: relative;">
+				<div class="picBox" style="">
 					<!--原div-->
 					<div class="panelBg capture" id="capture" style="background-image: url(img/shareBg.png);position: relative;">
 						<div class="footer">
@@ -59,14 +59,14 @@
 						</div>
 					</div>
 					<!--图片显示区-->
-					<div class="viewer" id="viewer" style="opacity: 1 !important;position: relative; ">
+					<div class="viewer" id="viewer" style="">
 						<img id="shot3">
 					</div>
 				</div>
 			</div>
 
 			<div class="share44">
-				<div class="picBox" style="opacity: 1 !important;position: relative;">
+				<div class="picBox" style="">
 					<!--原div-->
 					<div class="panelBg capture" id="capture" style="background-image: url(img/shareBg.png);position: relative;">
 						<div class="footer">
@@ -76,12 +76,12 @@
 						</div>
 					</div>
 					<!--图片显示区-->
-					<div class="viewer" id="viewer" style="opacity: 1 !important;position: relative; ">
+					<div class="viewer" id="viewer" style="">
 						<img id="shot4">
 					</div>
 				</div>
 			</div>
-			
+
 			<!--<div class="myTask">
 
 				<div class="picBox">
@@ -130,6 +130,7 @@
 					$("#shot1").attr("src", canvas.toDataURL());
 					//						console.log(canvas.toDataURL());
 					console.log(canvas.toDataURL().length);
+					console.log("11 完成")
 				}, {
 					'useCORS': true,
 				});
@@ -138,6 +139,7 @@
 					$("#shot2").attr("src", canvas.toDataURL());
 					//						console.log(canvas.toDataURL());
 					console.log(canvas.toDataURL().length);
+					console.log("22 完成")
 				}, {
 					'useCORS': true,
 				});
@@ -146,6 +148,7 @@
 					$("#shot3").attr("src", canvas.toDataURL());
 					//						console.log(canvas.toDataURL());
 					console.log(canvas.toDataURL().length);
+					console.log("33 完成")
 				}, {
 					'useCORS': true,
 				});
@@ -154,6 +157,7 @@
 					$("#shot4").attr("src", canvas.toDataURL());
 					//						console.log(canvas.toDataURL());
 					console.log(canvas.toDataURL().length);
+					console.log("44 完成")
 				}, {
 					'useCORS': true,
 				});

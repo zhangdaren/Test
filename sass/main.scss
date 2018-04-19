@@ -122,12 +122,14 @@
         height: 200vh;
         .picBox {
             //          position: absolute;
-            position: relative;
-            left: 0;
-            top: 0;
-            opacity: 0;
-            height: pxToRem(750);
-            height: pxToRem(1206);
+            //          position: relative;
+            //          //          left: 0;
+            //          //          top: 0;
+            //          //          opacity: 1;
+            //          height: pxToRem(750);
+            //          height: pxToRem(1206);
+            width: 8.28rem;
+            height: 10.50667rem;
         }
         .panelBg {
             position: absolute;
@@ -165,7 +167,9 @@
         .picBox {
             height: pxToRem(750);
             height: pxToRem(1206);
-            position: relative;
+//          position: relative;
+//          left: 0;
+//          top: 0;
         }
         .panelBg {
             position: absolute;
@@ -203,7 +207,7 @@
         .picBox {
             height: pxToRem(750);
             height: pxToRem(1206);
-            position: relative;
+            position: absolute;
             left: 0;
             top: 0;
         }
