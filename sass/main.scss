@@ -160,7 +160,8 @@
         height: 120vh;
         position: relative;
         .picBox {
-            width: pxToRem(750);
+            //          width: pxToRem(750);
+            width: 8.28rem;
             height: pxToRem(1206);
         }
         .panelBg {
@@ -195,12 +196,12 @@
         }
     }
     .share33 {
-        height: 120vh;
+        height: 100vh;
         position: relative;
         .picBox {
             width: 8.28rem;
             height: 10.50667rem;
-            opacity: 0.5;
+            opacity: 0;
         }
         .panelBg {
             position: absolute;
@@ -240,6 +241,7 @@
             width: 8.28rem;
             height: 10.50667rem;
             opacity: 0.1;
+            display: none;
         }
         .panelBg {
             position: absolute;
@@ -365,7 +367,7 @@
     }
 }
 
-#sharePage1 {
+#sharePage0 {
     width: 100%;
     height: 100%;
     min-height: pxToRem(1206);
@@ -442,49 +444,38 @@
             z-index: 11;
         }
     }
-    img {
-        max-width: 100%;
+    .picBox {
+        width: 8.28rem;
+        height: 10.50667rem;
+        opacity: 0.2;
     }
-    .share {
-        height: 200vh;
-        .picBox {
-            //          position: absolute;
-            position: relative;
-            left: 0;
-            top: 0;
-            opacity: 0;
-            height: pxToRem(750);
-            height: pxToRem(1206);
-        }
-        .panelBg {
-            position: absolute;
-            left: 0;
-            top: 0;
-            right: 0;
-            height: pxToRem(1206);
-            background-repeat: no-repeat;
-            background-size: contain;
-            z-index: 1;
-            width: 100%;
-            border: 10px solid #177b17;
-        }
-        .viewer {
-            position: absolute;
-            left: 0;
-            top: 0;
-            right: 0;
-            //      height: pxToRem(1206);
-            z-index: 2;
-            width: 100%;
-            height: 100%;
-        }
-        #shot {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            height: pxToRem(1206);
-        }
+    .panelBg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        height: pxToRem(1206);
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 1;
+        width: 100%;
+    }
+    .viewer {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        //      height: pxToRem(1206);
+        z-index: 2;
+        width: 100%;
+        height: 100%;
+    }
+    #shot {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        height: pxToRem(1206);
     }
 }
