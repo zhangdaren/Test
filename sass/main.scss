@@ -119,8 +119,8 @@
     //      }
     //  }
     .share {
-//      height: 150vh;
-//      position: relative;
+                height: 120vh;
+        //      position: relative;
         .picBox {
             width: 8.28rem;
             height: 10.50667rem;
@@ -136,6 +136,7 @@
             z-index: 1;
             width: 100%;
             border: 10px solid #177b17;
+            position: relative;
         }
         .viewer {
             position: absolute;
@@ -159,14 +160,12 @@
     .share22 {
         height: 120vh;
         position: relative;
-        display: none;
         .picBox {
-            //          width: pxToRem(750);
-            width: 8.28rem;
+            width: pxToRem(750);
             height: pxToRem(1206);
         }
         .panelBg {
-            position: absolute;
+//          position: absolute;
             left: 0;
             top: 0;
             right: 0;
@@ -176,6 +175,7 @@
             z-index: 1;
             width: 100%;
             border: 5px solid #f00;
+            position: relative;
         }
         .viewer {
             position: absolute;
@@ -198,7 +198,8 @@
     }
     .share33 {
         height: 100vh;
-        position: relative;  display: none;
+        position: relative;
+        display: none;
         .picBox {
             width: 8.28rem;
             height: 10.50667rem;
@@ -237,7 +238,8 @@
     }
     .share44 {
         height: 150vh;
-        position: relative;  display: none;
+        position: relative;
+        display: none;
         .picBox {
             width: 8.28rem;
             height: 10.50667rem;
@@ -448,10 +450,10 @@
     .picBox {
         width: 8.28rem;
         height: 10.50667rem;
-        opacity: 0.2;
+        opacity: 0;
     }
     .panelBg {
-//      position: absolute;
+        //      position: absolute;
         left: 0;
         top: 0;
         right: 0;
