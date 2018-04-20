@@ -450,7 +450,7 @@
         opacity: 0.2;
     }
     .panelBg {
-        position: absolute;
+//      position: absolute;
         left: 0;
         top: 0;
         right: 0;
@@ -459,6 +459,7 @@
         background-size: contain;
         z-index: 1;
         width: 100%;
+        position: relative;
     }
     .viewer {
         position: absolute;

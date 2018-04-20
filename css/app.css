@@ -1614,7 +1614,6 @@ header {
     height: 10.50667rem;
     opacity: 0.2; }
   #sharePage0 .panelBg {
-    position: absolute;
     left: 0;
     top: 0;
     right: 0;
@@ -1622,7 +1621,8 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
     z-index: 1;
-    width: 100%; }
+    width: 100%;
+    position: relative; }
   #sharePage0 .viewer {
     position: absolute;
     left: 0;
