@@ -119,8 +119,8 @@
     //      }
     //  }
     .share {
-        height: 150vh;
-        position: relative;
+//      height: 150vh;
+//      position: relative;
         .picBox {
             width: 8.28rem;
             height: 10.50667rem;
@@ -159,6 +159,7 @@
     .share22 {
         height: 120vh;
         position: relative;
+        display: none;
         .picBox {
             //          width: pxToRem(750);
             width: 8.28rem;
@@ -197,7 +198,7 @@
     }
     .share33 {
         height: 100vh;
-        position: relative;
+        position: relative;  display: none;
         .picBox {
             width: 8.28rem;
             height: 10.50667rem;
@@ -236,7 +237,7 @@
     }
     .share44 {
         height: 150vh;
-        position: relative;
+        position: relative;  display: none;
         .picBox {
             width: 8.28rem;
             height: 10.50667rem;

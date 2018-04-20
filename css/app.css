@@ -1323,41 +1323,39 @@ header {
       z-index: 11; }
   #sharePage img {
     max-width: 100%; }
-  #sharePage .share {
-    height: 150vh;
-    position: relative; }
-    #sharePage .share .picBox {
-      width: 8.28rem;
-      height: 10.50667rem; }
-    #sharePage .share .panelBg {
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      height: 16.08rem;
-      background-repeat: no-repeat;
-      background-size: contain;
-      z-index: 1;
-      width: 100%;
-      border: 10px solid #177b17; }
-    #sharePage .share .viewer {
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      z-index: 2;
-      width: 100%;
-      height: 100%; }
-    #sharePage .share #shot {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      height: 16.08rem; }
+  #sharePage .share .picBox {
+    width: 8.28rem;
+    height: 10.50667rem; }
+  #sharePage .share .panelBg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 16.08rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+    width: 100%;
+    border: 10px solid #177b17; }
+  #sharePage .share .viewer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%; }
+  #sharePage .share #shot {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    height: 16.08rem; }
   #sharePage .share22 {
     height: 120vh;
-    position: relative; }
+    position: relative;
+    display: none; }
     #sharePage .share22 .picBox {
       width: 8.28rem;
       height: 16.08rem; }
@@ -1389,7 +1387,8 @@ header {
       height: 16.08rem; }
   #sharePage .share33 {
     height: 100vh;
-    position: relative; }
+    position: relative;
+    display: none; }
     #sharePage .share33 .picBox {
       width: 8.28rem;
       height: 10.50667rem;
@@ -1422,7 +1421,8 @@ header {
       height: 16.08rem; }
   #sharePage .share44 {
     height: 150vh;
-    position: relative; }
+    position: relative;
+    display: none; }
     #sharePage .share44 .picBox {
       width: 8.28rem;
       height: 10.50667rem;
