@@ -1329,7 +1329,6 @@ header {
       width: 8.28rem;
       height: 10.50667rem; }
     #sharePage .share .panelBg {
-      position: absolute;
       left: 0;
       top: 0;
       right: 0;
@@ -1389,12 +1388,10 @@ header {
       height: 16.08rem; }
   #sharePage .share33 {
     height: 100vh;
-    position: relative;
-    display: none; }
+    position: relative; }
     #sharePage .share33 .picBox {
       width: 8.28rem;
-      height: 10.50667rem;
-      opacity: 0; }
+      height: 10.50667rem; }
     #sharePage .share33 .panelBg {
       position: absolute;
       left: 0;
